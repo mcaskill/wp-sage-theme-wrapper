@@ -1,0 +1,35 @@
+{
+  "type": "library",
+  "name": "mcaskill/sage-theme-wrapper",
+  "description": "Standalone version of the Sage theme layout wrapper for WordPress.",
+  "keywords": [ "sage", "roots", "wordpress", "wp" ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Scott Walkinshaw",
+      "email": "scott.walkinshaw@gmail.com",
+      "homepage": "https://github.com/swalkinshaw"
+    },
+    {
+      "name": "Ben Word",
+      "email": "ben@benword.com",
+      "homepage": "https://github.com/retlehs"
+    },
+    {
+      "name": "Chauncey McAskill",
+      "email": "chauncey@mcaskill.ca",
+      "homepage": "https://github.com/mcaskill"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "classmap": [
+      "includes/class-sage-wrapper.php"
+    ],
+    "files": [
+      "includes/functions-sage-wrapper.php"
+    ]
+  }
+}
